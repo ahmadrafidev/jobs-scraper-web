@@ -28,23 +28,24 @@ Repository ini adalah proyek aplikasi Jobs Scraper yang menggunakan Next.js untu
    - Menampilkan data lowongan pekerjaan dari API.
    - Fitur pencarian dan filter lowongan pekerjaan.
 
-## Instalasi dan Menjalankan Aplikasi Web 
 
-### Clone Repository
-   ```sh
+## Install and Running the Web Application 
+
+1. Clone the repository:
+   ```bash
    git clone https://github.com/ahmadrafidev/jobs-scraper-web
+
+2. Navigate to the directory:
+   ```bash 
    cd jobs-scraper-web
-   ```
 
-### Install Dependensi
-    ```
+3. Install the dependencies:
+    ```bash 
     npm install
-    ```
 
-### Menjalankan Aplikasi
-    ```sh
+4. Run the application:
+    ```bash 
     npm run dev
-    ```
 
 **Note**: 
 Aplikasi Backend dan Scraper bisa baca di repository: [Jobs Scraper Backend](https://github.com/ahmadrafidev/jobs-scraper-backend)
