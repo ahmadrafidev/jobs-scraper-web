@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Jobs Scraper Web Application
 
-## Getting Started
+Repository ini adalah proyek aplikasi Jobs Scraper yang menggunakan Next.js untuk frontend. Aplikasi ini mengumpulkan informasi lowongan pekerjaan dari berbagai situs job portal, menyimpannya dalam database, dan menyediakannya melalui API. Frontend aplikasi memungkinkan pengguna untuk melihat dan mencari lowongan pekerjaan yang tersedia.
 
-First, run the development server:
+## Teknologi yang Digunakan
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Backend
+- **Bahasa Pemrograman:** Python
+- **Framework:** FastAPI
+- **Database:** MongoDB
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Frontend
+- **Framework:** Next.js
+- **Bahasa Pemrograman:** TypeScript
+- **Styling:** Tailwind CSS
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Fitur Utama
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Job Scraping:**
+   - Mengumpulkan data lowongan pekerjaan dari jobstreet.co.id, karir.com, kalibrr.com, dan linkedin.com.
+   - Menyimpan data lowongan pekerjaan ke MongoDB.
 
-## Learn More
+2. **API Server:**
+   - Menyediakan endpoint untuk mengakses data lowongan pekerjaan.
+   - Endpoint untuk mendapatkan semua lowongan pekerjaan, lowongan berdasarkan ID, dan pencarian lowongan berdasarkan filter.
 
-To learn more about Next.js, take a look at the following resources:
+3. **Frontend:**
+   - Menampilkan data lowongan pekerjaan dari API.
+   - Fitur pencarian dan filter lowongan pekerjaan.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Instalasi dan Menjalankan Aplikasi Web 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Clone Repository
+   ```sh
+   git clone https://github.com/ahmadrafidev/jobs-scraper-web
+   cd jobs-scraper-web
+   ```
 
-## Deploy on Vercel
+### Install Dependensi
+    ```
+    npm install
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Menjalankan Aplikasi
+    ```sh
+    npm run dev
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Note**: 
+Aplikasi Backend dan Scraper bisa baca di repository: [Jobs Scraper Backend](https://github.com/ahmadrafidev/jobs-scraper-backend)
