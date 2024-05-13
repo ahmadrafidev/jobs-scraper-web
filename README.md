@@ -53,8 +53,6 @@ Repository ini adalah proyek aplikasi Jobs Scraper yang menggunakan Next.js untu
    npm run build
    ```
 
-Enjoy!
-
 **Note**: 
 
 Service backend dan juga scraper pada aplikasi Jobs Scraper ini bisa baca di repository: [Jobs Scraper Backend](https://github.com/ahmadrafidev/jobs-scraper-backend)
