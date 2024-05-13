@@ -25,7 +25,7 @@ This repository is a Jobs Scraper application project that uses Next.js for the 
     - Provides an endpoint to access job vacancy data.
     - Endpoint to get all job vacancies, vacancies by ID, and search vacancies by filter.
 
-3. **Frontend:**
+3. **Web Client:**
     - Displays job vacancy data from the API.
     - Job vacancy search and filter feature.
 
