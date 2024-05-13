@@ -1,11 +1,11 @@
 # Jobs Scraper Web Application
 
-Repository ini adalah proyek aplikasi Jobs Scraper yang menggunakan Next.js untuk frontend. Aplikasi ini mengumpulkan informasi lowongan pekerjaan dari berbagai situs job portal, menyimpannya dalam database, dan menyediakannya list lowongan pekerjaannya melalui API. Pada service ini, bagian frontend aplikasi memungkinkan pengguna untuk melihat dan mencari lowongan pekerjaan yang tersedia.
+This repository is a Jobs Scraper application project that uses Next.js for the frontend. This application collects job vacancy information from various job portal sites, stores it in a database, and provides a list of job vacancies via API. In this service, the frontend of the application allows users to view and search for available job vacancies.
 
-## Teknologi yang Digunakan
+## Technology Used
 
 ### Backend
-- **Bahasa Pemrograman:** Python
+- **Programming Language:** Python
 - **Framework:** FastAPI
 - **Database:** MongoDB
 
@@ -15,19 +15,19 @@ Repository ini adalah proyek aplikasi Jobs Scraper yang menggunakan Next.js untu
 - **Bahasa Pemrograman:** TypeScript
 - **Styling:** Tailwind CSS
 
-## Fitur Utama
+## Main feature
 
 1. **Job Scraping:**
-   - Mengumpulkan data lowongan pekerjaan dari jobstreet.co.id, karir.com, kalibrr.com, dan linkedin.com.
-   - Menyimpan data lowongan pekerjaan ke MongoDB.
+    - Collect job vacancy data from jobstreet.co.id, karir.com, kalibrr.com, and linkedin.com.
+    - Save job vacancy data to MongoDB.
 
-2. **API Server:**
-   - Menyediakan endpoint untuk mengakses data lowongan pekerjaan.
-   - Endpoint untuk mendapatkan semua lowongan pekerjaan, lowongan berdasarkan ID, dan pencarian lowongan berdasarkan filter.
+2. **Server API:**
+    - Provides an endpoint to access job vacancy data.
+    - Endpoint to get all job vacancies, vacancies by ID, and search vacancies by filter.
 
 3. **Frontend:**
-   - Menampilkan data lowongan pekerjaan dari API.
-   - Fitur pencarian dan filter lowongan pekerjaan.
+    - Displays job vacancy data from the API.
+    - Job vacancy search and filter feature.
 
 
 ## Install and Running the Web Application 
@@ -55,5 +55,5 @@ Repository ini adalah proyek aplikasi Jobs Scraper yang menggunakan Next.js untu
 
 **Note**: 
 
-1. Service backend dan juga scraper pada aplikasi Jobs Scraper ini bisa baca di repository: [Jobs Scraper Backend](https://github.com/ahmadrafidev/jobs-scraper-backend)
-2. Service mobile client yang menghandle interaksi pengguna lewat aplikasi mobile dapat diakses melalui repository: [Jobs Scraper Mobile](https://github.com/ahmadrafidev/jobs-scraper-mobile)
+1. Backend services and scrapers that handle business logic regarding applications can be accessed through the repository: [Jobs Scraper Backend](https://github.com/ahmadrafidev/jobs-scraper-backend)
+2. Mobile client services that handle user interactions via mobile applications can be accessed through the repository: [Jobs Scraper Mobile](https://github.com/ahmadrafidev/jobs-scraper-mobile)
