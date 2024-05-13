@@ -55,4 +55,5 @@ Repository ini adalah proyek aplikasi Jobs Scraper yang menggunakan Next.js untu
 
 **Note**: 
 
-Service backend dan juga scraper pada aplikasi Jobs Scraper ini bisa baca di repository: [Jobs Scraper Backend](https://github.com/ahmadrafidev/jobs-scraper-backend)
+1. Service backend dan juga scraper pada aplikasi Jobs Scraper ini bisa baca di repository: [Jobs Scraper Backend](https://github.com/ahmadrafidev/jobs-scraper-backend)
+2. Service mobile client yang menghandle interaksi pengguna lewat aplikasi mobile dapat diakses melalui repository: [Jobs Scraper Mobile](https://github.com/ahmadrafidev/jobs-scraper-mobile)
