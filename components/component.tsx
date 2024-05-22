@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { searchJobs } from "../lib/utils";
-import JobList from './JobList';  // Import komponen JobList
+import JobList from './JobList';  
 
 export function Component() {
   const [query, setQuery] = useState('');
@@ -19,7 +19,7 @@ export function Component() {
   };
 
   return (
-    <div className="bg-white flex flex-col min-h-[100dvh]">
+    <div className="bg-white flex flex-col min-h-[100dvh] dark:bg-gray-800">
       <section className="bg-white mx-auto py-20 dark:bg-gray-800">
         <div className="container px-4 md:px-6">
           <div className="max-w-3xl mx-auto text-center space-y-4">
@@ -62,11 +62,11 @@ export function Component() {
       <section className="container px-4 md:px-6 mx-auto flex items-center justify-center min-h-[300px]">
         {jobs.length > 0 ? <JobList jobs={jobs} /> : <p className="text-lg lg:text-xl">No Jobs Found</p>}
       </section>
-      <footer className="bg-gray-50 py-6 dark:bg-gray-800 mt-auto">
+      <footer className="bg-gray-50 py-6 dark:bg-black mt-auto">
         <div className="container px-4 md:px-6 flex flex-col md:flex-row items-center justify-between mx-auto">
-          <p className="text-sm text-gray-500 dark:text-gray-400">© 2024 Job Board by The Scraper. All rights reserved.</p>
+          <p className="text-sm text-gray-500 dark:text-gray-100">© 2024 Job Board by The Scraper. All rights reserved.</p>
           <div className="flex gap-4 mt-4 md:mt-0">
-            <Link className="text-sm text-gray-500 hover:underline" href="#">
+            <Link className="text-sm text-gray-500 dark:text-gray-100 hover:underline" href="#">
               Contact Us
             </Link>
           </div>
